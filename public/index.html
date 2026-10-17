@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Discover premium handbags, backpacks and travel bags at NIGSTA HABASHA.">
+  <title>NIGSTA HABASHA | Premium Bags</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">TIMELESS STYLE · PREMIUM BAGS · ETHIOPIA</div>
+  <header class="header">
+    <a class="brand" href="/">NIGSTA <span>HABASHA</span></a>
+    <nav><a href="#home">Home</a><a href="#shop">Shop</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+    <div class="header-actions"><a href="/account.html">My Account</a><a class="cart-link" href="#cart">Bag (<span id="cart-count">0</span>)</a></div>
+  </header>
+  <main>
+    <section class="hero" id="home"><div class="hero-content">
+      <p class="eyebrow">THE NEW COLLECTION</p><h1>Carry your style.<br><span>Own your moment.</span></h1>
+      <p>Discover thoughtfully selected bags for every journey, every occasion and every day.</p>
+      <a class="button" href="#shop">Explore the collection</a>
+    </div></section>
+    <section class="section" id="shop">
+      <div class="section-heading"><div><p class="eyebrow">CURATED FOR YOU</p><h2>Shop the collection</h2></div><span>Prices in Ethiopian birr (ETB)</span></div>
+      <div class="shop-tools"><input id="search" type="search" placeholder="Search bags..." aria-label="Search bags"><select id="category" aria-label="Filter category"><option value="all">All categories</option></select><select id="sort" aria-label="Sort products"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+      <p id="product-message" role="status">Loading collection...</p><div class="product-grid" id="products"></div>
+    </section>
+    <section class="promo" id="about"><p class="eyebrow">THE NIGSTA HABASHA EXPERIENCE</p><h2>Everyday essentials.<br>Exceptional style.</h2><p>Find a bag that fits your personal style and your next adventure.</p><a class="button button-light" href="#shop">Find your bag</a></section>
+    <section class="section cart-section" id="cart"><div class="section-heading"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your shopping bag</h2></div></div><div id="cart-items"></div><div class="cart-summary"><p>Subtotal: <strong id="cart-total">ETB 0.00</strong></p><a class="button" href="/account.html">Continue to checkout</a><p class="muted">Delivery fees will be confirmed separately.</p></div></section>
+  </main>
+  <footer id="contact"><a class="brand" href="/">NIGSTA <span>HABASHA</span></a><p>Premium style for your everyday journey.</p><p>Contact: Add your official business email or phone number.</p><p class="muted">© <span id="year"></span> NIGSTA HABASHA</p></footer>
+</body>
+</html>
